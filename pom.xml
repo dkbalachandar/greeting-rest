@@ -65,6 +65,15 @@
                                     </excludes>
                                 </filter>
                             </filters>
+                            <relocations>
+                                <relocation>
+                                    <pattern>org.glassfish.grizzly.utils</pattern>
+                                    <shadedPattern>org.shaded.glassfish.grizzly.utils</shadedPattern>
+                                    <excludes>
+                                        <exclude>org.glassfish.grizzly.utils.conditions.*</exclude>
+                                    </excludes>
+                                </relocation>
+                            </relocations>
                         </configuration>
                     </execution>
                 </executions>
