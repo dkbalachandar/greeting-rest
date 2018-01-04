@@ -1,0 +1,1 @@
+Simple REST greeting application
